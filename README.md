@@ -1,4 +1,4 @@
-# java-sample-cde
+# java-sample-code
 Basic sample codes for Map.ir services 
 
 For each project, you must add jar files inside library folder to your library path from IDE
