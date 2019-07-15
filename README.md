@@ -7,3 +7,12 @@ For example, for IntelliJ IDEA can use following links:
 
  * https://www.jetbrains.com/help/idea/library.html
  * https://stackoverflow.com/questions/1051640/correct-way-to-add-external-jars-lib-jar-to-an-intellij-idea-project 
+
+todo list:
+
+- [x] search service
+- [x] reverse geocode
+- [ ] distance matrix
+- [ ] static map
+- [ ] route
+- [ ] geofence
