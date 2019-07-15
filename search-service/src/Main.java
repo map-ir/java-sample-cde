@@ -28,7 +28,7 @@ public class Main {
             conn.setDoOutput(true);
 
 
-            Request request = new Request("text", 31.556, 56.45);
+            Request request = new Request("تهران انقلاب کارگر", 31.556, 56.45);
             String requestData = request.toString();
 
             try(OutputStream os = conn.getOutputStream()) {
@@ -49,7 +49,7 @@ public class Main {
             SearchService searchService = mapper.readValue(response.toString(), SearchService.class);
             System.out.println(obj);
             System.out.println(searchService.count);
-            System.out.println(searchService.value[0].Text);
+            System.out.println(searchService.value[0].text);
         } catch (Exception e) {
             e.printStackTrace();
         }

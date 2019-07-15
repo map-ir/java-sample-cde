@@ -2,19 +2,19 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Value {
     @JsonProperty("Text")
-    String Text;
+    String text;
     @JsonProperty("Title")
-    String Title;
+    String title;
     @JsonProperty("Address")
-    String Address;
+    String address;
     @JsonProperty("Province")
-    String Province;
+    String province;
     @JsonProperty("City")
-    String City;
+    String city;
     @JsonProperty("Type")
-    String Type;
+    String type;
     @JsonProperty("FClass")
-    String FClass;
+    String fclass;
     @JsonProperty("Coordinate")
-    Coordinate Coordinate;
+    Coordinate coordinate;
 }
