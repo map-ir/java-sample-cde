@@ -12,7 +12,7 @@ todo list:
 
 - [x] search service
 - [x] reverse geocode
-- [ ] distance matrix
+- [x] distance matrix
 - [ ] static map
 - [ ] route
 - [ ] geofence
